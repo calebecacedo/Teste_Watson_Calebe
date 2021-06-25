@@ -1,6 +1,6 @@
 # Teste_Watson_Calebe
 OBSERVAÇÕES:
-1° Programa incompleto, infelizmente não consegui utilizar o Ajax, e nem dar a funcionalidade ao botão para poder ouvir o comentário no Banco de Dados.
+Programa incompleto, infelizmente não consegui utilizar o Ajax, e nem dar a funcionalidade ao botão para poder ouvir o comentário no Banco de Dados.
 
 1° Através do prompt de comando acessar a pasta de destino do arquivo Teste_Watson_Calebe por exemplo,
 "C:\Users\Calebe\Documents\GitHub\Teste_Watson_Calebe\TesteWatsonCalebe>". Utilizar os comandos:  
