@@ -1,0 +1,16 @@
+SHOW DATABASES;
+CREATE DATABASE testewatson;
+USE testewatson;
+SHOW TABLES;
+
+CREATE TABLE comentarios(
+id INT NOT NULL AUTO_INCREMENT,
+comentario VARCHAR(500) NOT NULL,
+createdAt DATETIME NOT NULL,
+updatedAt DATETIME NOT NULL,
+PRIMARY KEY (id)
+);
+
+DESCRIBE comentarios;
+SELECT * FROM comentarios;
+

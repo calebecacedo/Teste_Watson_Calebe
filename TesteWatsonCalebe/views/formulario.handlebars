@@ -1,0 +1,27 @@
+<div class="metade1">
+  <form action="/add" method="post">
+    <p style="font: 15px Arial;"><b>Comentário</b></p>
+    <textarea name="comentario" rows="10" cols="50" style="resize: none;
+    border: 2px solid black;border-radius: 1px;"></textarea><br>
+    <button type="submit" name="cadastrar" style="margin-top: 1%;width: 79%;height: 30px;
+    border-radius: 6px;font: 15px Arial"><b>Cadastrar</b></button>
+  </form>
+</div>
+
+<div class="linha">
+</div>
+
+<div class="metade2">
+<p style="font: 15px Arial;"><b>Comentários</b></p>
+<br>
+{{#each posts}}
+  <form action="/lista" method="post">
+    <p style="font: 14px Arial;color: gray;padding-right: 200px;"><b>
+      {{dataValues.comentario}}</b></p>
+      <button type="submit" name="ouvir" style="width: 16%;height: 5%;/*top: -15%;
+      /*bottom: 20%;right: 60%;left: 75%;*/border-radius: 6px;font: 95% Arial">
+      <b>Ouvir</b></button>
+    <br>
+  </form>
+{{/each}}
+</div>
